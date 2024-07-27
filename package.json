@@ -4,7 +4,9 @@
   "description": "Good reads backend using node",
   "main": "index.js",
   "scripts": {
-    "start": "npx nodemon src/index.js"
+    "start": "npx nodemon src/index.js",
+     "seed": "node --no-warnings src/seeders/seed.js"
+
   },
   "author": "",
   "license": "ISC",
